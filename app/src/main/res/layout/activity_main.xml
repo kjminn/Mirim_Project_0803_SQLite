@@ -45,19 +45,41 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/btn_init"
-            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="10dp"
             android:text="초기화"/>
         <Button
             android:id="@+id/btn_insert"
-            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:textSize="12dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="입력"/>
         <Button
+            android:id="@+id/btn_update"
+            android:layout_weight="1"
+            android:textSize="12dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수정"/>
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_weight="1"
+            android:textSize="12dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="삭제"/>
+        <Button
             android:id="@+id/btn_select"
-            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:textSize="12dp"
+            android:layout_marginRight="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="조회"/>
@@ -71,12 +93,14 @@
             android:enabled="false"
             android:background="#A3E9F2"
             android:layout_weight="1"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
         <EditText
             android:id="@+id/edit_result_count"
             android:enabled="false"
             android:background="#A3E9F2"
+            android:textColor="@color/black"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
